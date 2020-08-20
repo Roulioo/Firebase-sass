@@ -1,0 +1,15 @@
+@import 'signup-login';
+
+body {
+    #main-ctnr {
+        @include borderImage(rgba(48, 94, 187,0.5), rgba(221, 81, 89,0.5));
+    } 
+}
+
+#fb-connect-btn {
+    background-color: $fb_blue;
+}
+
+#google-connect-btn {
+    background-color: $google_red;
+}
